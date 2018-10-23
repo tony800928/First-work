@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MY課表</title>
+    <meta charset="utf-8">
+    <style>
+        table {
+            border: 2px solid;
+            padding: 4px;
+            font-size: 16px;
+        }
+        td {
+            text-align: center;
+            width: 100px;
+            height: 50px;
+            word-break: break-all;
+        }
+        
+        .name {
+            background-color: #33FFFF;
+            color: black;
+            font-size: 30px;
+        }
+        
+        .tablename {
+            background-color: #33FFFF;
+            color: black;
+            font-size: 18px;
+        }
+        
+        .weekday {
+            background-color: #33FFFF;
+            font-size: 18px;
+        }
+        
+        .number {
+            width: 25px;
+            background-color: chocolate;
+        }
+        
+        .time {
+            background-color: bisque;
+        }
+        
+        .content {
+            background-color: darkseagreen;
+        }
+        
+        .contact {
+            background-color: blueviolet;
+        }
+        
+        .contactinfo {
+            background-color: darkgray;
+            text-align: left;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td rowspan="2" colspan="2" class="name">蕭書賢</td>
+            <td colspan="6" class="tablename">107年度第1學期課表</td>
+        </tr>
+
+        <tr>
+            <td class="weekday">週一</td>
+            <td class="weekday">週二</td>
+            <td class="weekday">週三</td>
+            <td class="weekday">週四</td>
+            <td class="weekday">週五</td>
+            <td class="weekday">週六</td>
+        </tr>
+
+        <tr>
+            <td class="number">1</td>
+            <td class="time">8:10~9:00</td>
+            <td rowspan="10" colspan="5" class="content">公司上班<br>北投</td>
+            <td class="content">開源軟體實務<br>助教(E213)</td>
+        </tr>
+
+        <tr>
+            <td class="number">2</td>
+            <td class="time">9:10~10:00</td>
+            <td rowspan="3" class="content">開源軟體實務<br>教授(E213)</td>
+        </tr>
+
+        <tr>
+            <td class="number">3</td>
+            <td class="time">10:10~11:00</td>
+        </tr>
+
+        <tr>
+            <td class="number">4</td>
+            <td class="time">11:10~12:00</td>
+        </tr>
+
+        <tr>
+            <td class="number">5</td>
+            <td class="time">12:10~13:00</td>
+            <td class="content">午休</td>
+        </tr>
+
+        <tr>
+            <td class="number">6</td>
+            <td class="time">13:10~14:00</td>
+            <td rowspan="2" class="content">英文<br>教授(B503)</td>
+        </tr>
+        
+        <tr>
+            <td class="number">7</td>
+            <td class="time">14:10~15:00</td>
+        </tr>
+        
+        <tr>
+            <td class="number">8</td>
+            <td class="time">15:10~16:00</td>
+            <td rowspan="2" class="content">英文<br>助教(V102)</td>
+        </tr>
+        
+        <tr>
+            <td class="number">9</td>
+            <td class="time">16:10~17:00</td>
+        </tr>
+        
+        <tr>
+            <td class="number">10</td>
+            <td class="time">17:10~18:00</td>
+            <td class="content">用餐</td>
+        </tr>
+         <tr>
+            <td class="number">11</td>
+            <td class="time">17:10~18:00</td>
+            <td rowspan="3" class="content">計算機概論<br>教授(E410)</td>
+            <td class="content">大學學習 <br> E401</td>
+            <td rowspan="3" class="content">計算機程式語言<br>教授(E404)</td>
+            <td rowspan="2" class="content">全球化發展<br>教授(E401)</td>
+            <td rowspan="2" class="content">體育課<br>教授(E401)</td>
+            <td rowspan="2" class="content">中國語文能力表達<br>教授(B515)</td>
+        </tr>
+         <tr>
+            <td class="number">12</td>
+            <td class="time">17:10~18:00</td>
+            <td rowspan="3" class="content">靜態網頁設計 <br> E213</td>
+           
+        </tr>
+        <tr>
+            <td class="number">13</td>
+            <td class="time">17:10~18:00</td>
+            <td rowspan="2" class="content">下課</td>
+            <td class="content">校園與社區服務<br>教官</td>
+           <td rowspan="2" class="content">免修<br>FREE TIME</td>
+        </tr>
+        <tr>
+            <td class="number">14</td>
+            <td class="time">17:10~18:00</td>
+            <td class="content">計算機概論<br>助教(E213)</td>
+            <td class="content">計算機程式語言<br>助教(E201)</td>
+            <td class="content">靜態網頁設計<br>助教(E213)</td>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="2" class="contact">聯絡資訊</td>
+            <td colspan="6" class="contactinfo">Email: ssheep04tw@gmail.com</td>
+        </tr>
+        <tr>
+            <td colspan="6" class="contactinfo">Webpage: <a href="http://s05.tku.edu.tw/~123456789/"></a></td>
+        </tr>
+    </table>
+</body>
